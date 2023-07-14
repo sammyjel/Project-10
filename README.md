@@ -69,3 +69,15 @@ To configure nginx, open the configuration file with `sudo vi /etc/nginx/nginx.c
 Look for this line include `/etc/nginx/sites-enabled/*;` and comment it by adding # to the beginning.
 
 Ensure that you replace "www.domain.com" with the domain name you just created.
+
+Restart the nginx server and check the status:
+
+sudo systemctl restart nginx
+
+sudo systemctl status nginx
+
+Check that your webservers can be reached from browser with the domain name you have created using HTTP protocol http://www.<your-domain-name>
+
+If your configuration is okay, you should see something like this
+
+![HTTP](./images/http.jpg)
