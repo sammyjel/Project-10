@@ -76,7 +76,7 @@ sudo systemctl restart nginx
 
 sudo systemctl status nginx
 
-Check that your webservers can be reached from browser with the domain name you have created using HTTP protocol http://www.<your-domain-name>
+Check that your webservers can be reached from browser with the domain name you have created using HTTP protocol http://www.your-domain-name
 
 If your configuration is okay, you should see something like this
 
